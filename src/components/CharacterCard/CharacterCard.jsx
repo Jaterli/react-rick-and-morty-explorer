@@ -1,5 +1,5 @@
 import React from 'react';
-import { useFavorites } from '../context/FavoritesContext';
+import { useFavorites } from '../../context/FavoritesContext';
 import './CharacterCard.css';
 
 export const CharacterCard = ({ character, onCharacterClick }) => {
