@@ -1,0 +1,28 @@
+.error-message {
+  background: rgba(244, 67, 54, 0.2);
+  border: 1px solid #f44336;
+  color: #ff8a80;
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-md);
+  text-align: center;
+  margin: var(--spacing-lg) 0;
+}
+
+.fa-exclamation-triangle {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.retry-btn {
+  margin-top: var(--spacing-md);
+  background: var(--primary);
+  border: none;
+  color: white;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+}
+
+.retry-btn:hover {
+  background: var(--primary-dark);
+}

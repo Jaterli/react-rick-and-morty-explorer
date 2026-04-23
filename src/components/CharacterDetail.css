@@ -1,0 +1,83 @@
+.character-detail {
+  text-align: center;
+}
+
+.character-detail-img {
+  width: 11.25rem;
+  height: 11.25rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.1875rem solid var(--primary);
+  margin: var(--spacing-lg);
+}
+
+.character-detail h2 {
+  margin: var(--spacing-lg);
+}
+
+.detail-info {
+  text-align: left;
+  background: rgba(0, 0, 0, 0.3);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+}
+
+.detail-info p {
+  margin: var(--spacing-sm) 0;
+}
+
+.character-detail .fav-btn {
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-detail .detail-header {
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+  align-items: center;
+}
+
+.character-detail .fav-btn i {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.fav-btn.active i {
+  color: var(--favorite);
+}
+
+.episodes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.episode-tag {
+  background: rgba(76, 175, 80, 0.2);
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: 1.25rem;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .episode-tag {
+    font-size: 0.85rem;
+  }
+}
+
+.loading-detail,
+.error-detail {
+  text-align: center;
+  padding: var(--spacing-2xl);
+}

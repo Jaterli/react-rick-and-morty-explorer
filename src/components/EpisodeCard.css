@@ -1,0 +1,27 @@
+.episode-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-lg);
+  cursor: pointer;
+  transition: var(--transition-fast);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.episode-card:hover {
+  background: rgba(76, 175, 80, 0.1);
+  border-color: var(--primary);
+}
+
+.episode-name {
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+  font-size: 1rem;
+}
+
+.episode-info {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
